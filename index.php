@@ -2,7 +2,7 @@
 
 include_once "scribe.php";
 
-$scribeClient = new ScribeClient("http://skrybaa41b.skryba.online/", "admin", "admin");
+$scribeClient = new ScribeClient("https://skryba.razniewski.eu/", "admin", "admin");
 $records = $scribeClient->getRecordsInDay("2020-07-02");
 
 echo "02-07-2020:<br>";
